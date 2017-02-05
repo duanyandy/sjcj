@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+   id="DummyJob"
+   iconfile="DPL.png"
+   description="Dummy Job Entry"
+   tooltip="This is a dummy plugin test job entry"
+   category="General"
+   classname="pdi.jobentry.dummy.JobEntryDummy">
+   <libraries>
+    <library name="dummyjob.jar"/>
+    </libraries>
+    
+   <localized_category>
+     <category locale="en_US">General</category>
+     <category locale="nl_NL">Algemeen</category>
+     <category locale="fr_FR">Général</category>
+   </localized_category>
+   <localized_description>
+     <description locale="en_US">Example plugin</description>
+     <description locale="zh_CN">示例插件</description>
+   </localized_description>
+   <localized_tooltip>
+     <tooltip locale="en_US">This is an example test job entry for a plugin</tooltip>
+     <tooltip locale="zh_CN">这是一个简单的示例插件测试作业条目</tooltip>
+   </localized_tooltip>
+   
+</plugin>
